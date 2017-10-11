@@ -2,7 +2,6 @@
     <head>
     <style>
     @import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
-    @import url(http://fonts.googleapis.com/earlyaccess/jejugothic.css);
     @import url('https://fonts.googleapis.com/css?family=Archivo+Black');
     @import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
 
@@ -31,13 +30,23 @@
 
         div.vision{
             margin:0px;
-            padding-top:100px;
-            padding-left: 150px;
-            padding-bottom: 100px;
+            padding-top:80px;
+            padding-left:200px;
+            padding-right:200px;
+            padding-bottom: 80px;
             background-color: #0A122A;
         }
 
-        li {
+        div.profile{
+            margin:0px;
+
+            padding-top:150px;
+            padding-left:200px;
+            padding-right:200px;
+            padding-bottom: 200px;
+        }
+
+        li.navbar {
             display: inline;
             color: skyblue;
             }
@@ -76,11 +85,12 @@
     <head>
 
     <body>
+    <div class="sitecnt" style="width:980px;">
         <div class=navbar>
             <ul>
-                <li><a href="index.html">ABOUT ME</a></li>
-                <li><a href="portfolio.html">PORTFOLIO</a></li>
-                <li><a href="contact.html">CONTACT</a></li>
+                <li class=navbar><a href="index.html">ABOUT ME</a></li>
+                <li class=navbar><a href="portfolio.html">PORTFOLIO</a></li>
+                <li class=navbar><a href="contact.html">CONTACT</a></li>
             </ul>
         </div class=navbar>
 
@@ -90,7 +100,7 @@
 
         <div class=vision>
             <h2>VISION</h2>
-         <h5>
+            <h5>
             모든 데이터는 세상을 바꿀 잠재력을 갖고 있습니다.<br>
             데이터의 잠재력은 분석하는 방법과 전달되는 방법에 따라서<br>
             크게 발휘하게 되거나 그렇지 못하게 됩니다.<br><br>
@@ -101,12 +111,20 @@
             전달받고 활용할 수 있는 플랫폼 제작을 지향합니다.<br><br>
  
             학생으로서 의미있는 경험을 하고 세상에 공감하며<br>
-            데이터 기획가로서의 역량을 키워나가고 있습니다. </h5>
+            데이터 기획가로서의 역량을 키워나가고 있습니다.</h5>
         </div>
-
 
         <div class=profile>
-            
+            <h2>PROFILE</h2>
+            <ul><h5>
+                <li> 성균관대학교 교육학, 인포매틱스 복수 전공 </li>
+                <li> 사용가능 프로그래밍 언어: Python, Java, R, SQL</li>
+                <li> '16. 6~ '17.9    지식컨텐츠 크리에이팅 팀 Insight Haus 컨텐츠 기획 담당</li>
+                <li> '16. 9~ 현재    프로그램학회 PYNEER 학회장</li>
+            </h5></ul>
+
         </div>
+
+    </div>    
     </body>
 </html>
