@@ -1,0 +1,98 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+@import url('https://fonts.googleapis.com/css?family=Archivo+Black');
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+    body{
+        margin: 0px;
+        padding:0px;
+        font-family: 'Noto Sans KR' ,sans-serif;
+
+    }
+
+    caption{
+        caption-side:bottom;
+    }
+
+
+    li.navbar {
+        display: inline;
+    }
+    
+    nav{
+        position:fixed;
+        top:50%;
+        left:3%;
+        font-size:25px;
+        float:left;
+    }
+
+    #backbar{
+        color:white;
+        text-decoration:none;
+    }
+
+
+    a.navbar{
+        color:white;
+        margin: 3%;
+        text-decoration:none;
+        font-weight:bold;
+    }
+    a:hover{
+        color:#2E64FE;
+    }        
+
+
+
+    div.navbar{
+        text-align: center;
+        margin: 0px;
+        padding: 1%;
+    }
+
+
+
+    div.title{
+        margin-left:auto;
+        margin-rightt:auto;
+        padding:5%;
+    }    
+
+
+
+    div.cntbox{
+        background-color:white;
+        margin-left:10%;
+        margin-right:10%;
+        padding-top:5%;
+        padding-left:10%;
+        padding-right:10%;
+        padding-bottom:5%;
+        margin-bottom:10%;
+    }
+
+    div.imgbox{
+        display:inline;
+        margin-left:3%;
+        margin-right:3%;
+    }
+
+       
+   h1{
+       font-family: 'Archivo Black', sans-serif;
+       font-size: 120px;
+   }
+   h2{
+       font-family: 'Nanum Gothic', sans-serif;
+       font-weight:bold;
+       font-size:25px;
+   }
+   h5{
+       color:black;
+       font-size:18px;   
+   }
+
+      footer{
+       color:white;
+       text-align:right;
+       margin:2%;
+    }

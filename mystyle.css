@@ -1,0 +1,106 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+@import url('https://fonts.googleapis.com/css?family=Archivo+Black');
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+    body{
+        margin: 0px;
+        padding:0px;
+        font-family: 'Noto Sans KR' ,sans-serif;
+        background-color:black;
+    }
+
+    li.navbar {
+        display: inline;
+    }
+    
+    nav{
+        position:fixed;
+        top:50%;
+        left:5%;
+        font-size:25px;
+        float:left;
+    }
+    
+    #topbar{
+        color:white;
+        text-decoration:none;
+    }
+
+    a.navbar{
+        margin:5%;
+        color:white;
+        text-decoration:none;
+    }
+    a:hover{
+        color:#2E64FE;
+    }        
+
+    div.navbar{
+        background-color:black;
+        text-align: center;
+        margin: auto;
+        padding: inherit%;
+    }
+    div.titletag{
+        text-align:center;
+        margin:0%;
+        padding-top:6%;
+        padding-bottom: 8%;
+        }
+    div.navybox{
+        margin:0px;
+        padding-top:7%;
+        padding-left:17%;
+        padding-right:17%;
+        padding-bottom: 7%;
+        background-color: #0A122A;
+    }
+    div.blackbox{
+        margin:0px;
+        padding-top:7%;
+        padding-left:17%;
+        padding-right:17%;
+        padding-bottom: 7%;
+    }
+
+    table{
+        margin:0px;
+        padding:0px;
+
+    }
+
+    td{
+        margin:0px;
+        padding:0px;
+    }
+        
+    img.link{
+
+        width:430px;
+        height: 330px;
+        margin:0px;
+        padding:0px;
+        overflow:hidden;
+    }
+
+       
+       h1{
+           font-family: 'Archivo Black', sans-serif;
+           font-size: 120px;
+           color:#2E64FE;
+       }
+       h2{
+           font-family: 'Nanum Gothic', sans-serif;
+           font-weight:bold;
+           color:skyblue;
+           font-size:35px;
+       }
+       h5{
+           color:white;
+           font-size:20px;   
+       }
+
+      footer{
+       color:white;
+       text-align:right;
+       margin:2%;
+    }
